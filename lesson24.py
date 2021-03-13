@@ -115,6 +115,63 @@
 #
 # f(1, 2, 3,  b='test', c='hi')
 
+# import random
+#
+#
+# def game():
+#     ctn = 1
+#     random_num = random.randint(1, 10)
+#     while True:
+#         enter = int(input('Введите цифру: '))
+#         if enter == random_num:
+#             print(f'You win! Твое к-лво попыток {ctn}')
+#             again = input('Хотите ли вы повторить игру(y/n): ')
+#             if again == 'y':
+#                 game()
+#             else:
+#                 print('Ну как хочешь друг...')
+#                 break
+#         elif enter <= random_num:
+#             print('Больше')
+#             ctn += 1
+#
+#         elif enter >= random_num:
+#             print('Меньше')
+#             ctn += 1
+#
+# print('Игра Угадай число')
+#
+# start_game = input('У нас есть игра, не проотив ли ты в нее сыграть(y/n)?: ')
+# if start_game == 'y':
+#     game()
+# else:
+#     print('Фуу, ну ты и зануда!!!')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
