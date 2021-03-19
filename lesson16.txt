@@ -1,0 +1,11 @@
+# Сборка приложения с настройками по умолчанию
+pyinstaller notepad.py
+
+# Сборка приложения в виде 1 файла
+pyinstaller -F notepad.py
+
+# noconsole
+pyinstaller -w notepad.py
+
+# icon
+pyinstaller -w -i "C:\Users\User\Desktop\python.ico" notepad.py
